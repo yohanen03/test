@@ -4,7 +4,6 @@ from tensorflow.keras.preprocessing.image import img_to_array, load_img
 from tensorflow import expand_dims
 import numpy as np
 import os
-import cv2
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = './static/uploads/'
